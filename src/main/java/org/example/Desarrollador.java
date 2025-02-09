@@ -29,7 +29,7 @@ public class Desarrollador extends Empleado {
     public  void mostrarDetalles(){
         System.out.println("Desarrollador");
         super.mostrarDetalles();
-        System.out.println("El lengiaje de programacion; " + getLenguajeProgramacion());
+        System.out.println("El lenguaje de programacion; " + getLenguajeProgramacion());
         System.out.println("\n------------------\n");
     }
 }
